@@ -34,7 +34,7 @@ fn bruteForce(nums):
 
 Kadanes‘s Algorithm的解决方式是其实是一种贪心法，本质是当前面的某一部分，对后面的部分起不到贡献（或者说负贡献）的时候，就将其弃掉。
 
-![array1-1](/Users/aoli/Desktop/自媒体/md/Array1/array1-1.png)当currSum的数字小于0，说明对后面不会再有贡献，此时就将currSum置0。算法的时间复杂度是O(n)。
+![array1-1](https://github.com/WhosthatAoli/Algorithms/blob/main/images/array1/array1-1.png)当currSum的数字小于0，说明对后面不会再有贡献，此时就将currSum置0。算法的时间复杂度是O(n)。
 
 ```
 fn kadanes(nums):
@@ -53,7 +53,7 @@ fn kadanes(nums):
 
 若题目要求返回实际的子数组，我们只需要使用一个左指针L=0，和右指针R，从右侧加入元素。当L与R表示的数组和小于0时，将L指针右移到R指针即可。
 
-![array1-2](/Users/aoli/Desktop/自媒体/md/Array1/array1-2.png)对于图四滑动窗口方法的伪代码如下：
+![array1-2](https://github.com/WhosthatAoli/Algorithms/blob/main/images/array1/array1-1.png)对于图四滑动窗口方法的伪代码如下：
 
 ```
 fn slidingWindow(nums):
