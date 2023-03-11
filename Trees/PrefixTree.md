@@ -1,6 +1,6 @@
 ## 字典树 Trie（Prefix Tree）
 
-![PrefixTree](/Users/aoli/Desktop/自媒体/xiaohongshu/Prefix tree/PrefixTree.png)
+![PrefixTree](https://github.com/WhosthatAoli/Algorithms/blob/main/images/Trees/PrefixTree.png)
 
 ```python
 class TrieNode:
