@@ -12,6 +12,8 @@
 
 更一个就是Tree class，加入一些节点来构成树，拥有检查单词是否在树中（search）和是否为树中单词前缀（Startwith）的功能。
 
+Leetcode：208，211，212，745
+
 ```python
 class TrieNode:
     def __init__(self, char = ""):
