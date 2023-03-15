@@ -6,3 +6,4 @@
 
 ## Trees
 ### 1.[Trie(Prefix Tree)字典树](https://github.com/WhosthatAoli/Algorithms/blob/main/Trees/PrefixTree.md)
+### 2.[Union-Find(Disjoint-Sets)](https://github.com/WhosthatAoli/Algorithms/blob/main/Trees/Union-Find(Disjoint%20Sets).md)
