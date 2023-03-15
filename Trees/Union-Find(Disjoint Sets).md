@@ -121,4 +121,4 @@ If we combine it with the union function, we get a time complexity called Invers
         else:
             self.par[p1] = p2
             self.rank[p2] += 1
-        return True```
+        return True
