@@ -90,7 +90,8 @@ In the naive case, the find function will result in *O*(*n*) because it is possi
 
 If we combine it with the union function, we get a time complexity called Inverse Ackermann,*α*(*n*), which can be simplified to constant time, *O*(1). So, if *m* is the number of edges we have, then the time complexity of Union-Find is *O*(*m* ∗ *l*o*g*n).
 
-```class UnionFind:
+```
+class UnionFind:
     def __init__(self, n):
         self.par = {}
         self.rank = {}
