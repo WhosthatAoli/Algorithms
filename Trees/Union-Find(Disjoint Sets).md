@@ -16,7 +16,7 @@ Suppose that we are given an array of edges, `edges: [1,2], [4,1], [2,4]`, and w
 
 Union-Find is referred to as a "forest of trees". Initially, each vertex stands by itself, and for each vertex, we want to store the pointer to its parent. Since we have not connected them yet, each node is a parent to itself, i.e. points to itself.
 
-![Union-Find-1](/Users/aoli/Desktop/自媒体/md/Union-Find/Union-Find-1.png)
+![Union-Find-1](https://github.com/WhosthatAoli/Algorithms/blob/main/images/Trees/Union-Find-1.png)
 
 Then, we want to connect the components together. Since `2` is connected to `1`, we can select it to be the child of `1`. Here, it does not matter which vertex is the parent and which vertex is the child. However, this order starts to matter when the two components we are trying to union have different heights, also referred to as the rank. If you are confused about this part, don't worry, we will expand on this soon.
 
@@ -82,7 +82,7 @@ def union(self, n1, n2):
 
 The below visual demonstrates the find and the union function given `edges = [1,2], [4,1], [2,4]`. Notice that we connect 2 to 1, then we connect 4 to 1 because 1 has a higher rank. But, when we reach `[2,4]`, `2`'s parent is `1` and `4`'s parent is also `1`, meaning they belong to the same connected component, i.e. there is a cycle.
 
-![Union-Find-2](/Users/aoli/Desktop/自媒体/md/Union-Find/Union-Find-2.png)
+![Union-Find-2](https://github.com/WhosthatAoli/Algorithms/blob/main/images/Trees/Union-Find-2.png)
 
 ## Time Space Complexity
 
