@@ -40,7 +40,7 @@ Recursion的时间复杂度是O(2**n)，这就是一个暴力方法
 
 可以来分析一下暴力方法计算时用到的tree
 
-![Screen Shot 2023-03-23 at 4.55.24 PM](/Users/aoli/Desktop/自媒体/md/DP1/Screen Shot 2023-03-23 at 4.55.24 PM.png)
+![DP1-1](https://github.com/WhosthatAoli/Algorithms/blob/main/DP%E5%8A%A8%E6%80%81%E8%A7%84%E5%88%92/DP1-1.png)
 
 可以见得像F(3), F(2)等我们计算了多次，都是重复工作，浪费了性能。所以我们开始想要将一些计算过的数值，以后还能用到的，进行重复使用。
 
@@ -84,7 +84,7 @@ def dp(n):
 
 ```
 
-![Screen Shot 2023-03-23 at 5.09.11 PM](/Users/aoli/Desktop/自媒体/md/DP1/Screen Shot 2023-03-23 at 5.09.11 PM.png)
+![DP1-2](https://github.com/WhosthatAoli/Algorithms/blob/main/DP%E5%8A%A8%E6%80%81%E8%A7%84%E5%88%92/DP1-2.png)
 
 注意这里fibonacci只需要长度为2的数组就够了。
 
